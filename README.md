@@ -12,6 +12,7 @@ CubeMX:
 In Win platform CubeMX don't install packages. Inslall it manualy: 
 - dawnload pakege for STM32L0-series en.stm32cubel0.zip http://www.st.com/en/embedded-software/stm32cubel0.html
 - Help >> Inslall New Libraries >> "From local" (left bottom button)
+
 Click "Hew Project" in workspace of "File >> New project..."
 "Board Selector" >> Type of board: Nucleo64 >> MCU Series: STM32L0 >> in "Boards list" chuse NUCLEO-L053R8.
 On Pinout ribbon chuse USART2, mode Asynchronous.
