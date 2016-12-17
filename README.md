@@ -17,6 +17,7 @@ Click "Hew Project" in workspace of "File >> New project..."
 On Pinout ribbon chuse USART2, mode Asynchronous.
 On Clock Configuration ribbon check HCLK: put 32 and "Enter". Yes on Clock Wizard. On USART2 Source Mux check SYSCLK.
 On Configuration ribbon click on NVIC button. Check enable USERT2 globla interrupt.
+On Configuration ribbon click on USART2 button.Chuse Word Leght: 8 Bits (including Parity).
 Click "Progect" in main menu "Project >> Settings..."
 Put $your_project_name, chuse $your_folder and chuse Toolchain: SW4STM32. "OK"
 Click "Progect" in main menu "Project >> Generate Code..."
